@@ -7,13 +7,18 @@
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
-    -unity-font-style: normal;
+    border-top-width: 1.5px;
+    border-right-width: 1.5px;
+    border-bottom-width: 1.5px;
+    border-left-width: 1.5px;
+    -unity-font-style: bold;
     -unity-font-definition: url("project://database/Assets/Fonts/AlbertSans-Regular.ttf?fileID=12800000&guid=61d5e8193b4fc4541aba442c6e9eebf4&type=3#AlbertSans-Regular");
     font-size: 18px;
+    border-left-color: rgba(0, 0, 0, 0.47);
+    border-right-color: rgba(0, 0, 0, 0.47);
+    border-top-color: rgba(0, 0, 0, 0.47);
+    border-bottom-color: rgba(0, 0, 0, 0.47);
+    color: rgb(131, 131, 131);
 }
 
 .lang-button:hover {
@@ -22,13 +27,17 @@
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
+    border-top-width: 1.5px;
+    border-right-width: 1.5px;
+    border-bottom-width: 1.5px;
+    border-left-width: 1.5px;
     -unity-font-style: normal;
     -unity-font-definition: url("project://database/Assets/Fonts/AlbertSans-Regular.ttf?fileID=12800000&guid=61d5e8193b4fc4541aba442c6e9eebf4&type=3#AlbertSans-Regular");
     font-size: 18px;
+    border-left-color: rgb(0, 133, 252);
+    border-right-color: rgb(0, 133, 252);
+    border-top-color: rgb(0, 133, 252);
+    border-bottom-color: rgb(0, 133, 252);
     color: rgb(255, 255, 255);
 }
 
@@ -38,20 +47,53 @@
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
+    border-top-width: 1.5px;
+    border-right-width: 1.5px;
+    border-bottom-width: 1.5px;
+    border-left-width: 1.5px;
     -unity-font-style: bold;
     -unity-font-definition: url("project://database/Assets/Fonts/AlbertSans-Regular.ttf?fileID=12800000&guid=61d5e8193b4fc4541aba442c6e9eebf4&type=3#AlbertSans-Regular");
     font-size: 18px;
+    border-left-color: rgb(0, 133, 252);
+    border-right-color: rgb(0, 133, 252);
+    border-top-color: rgb(0, 133, 252);
+    border-bottom-color: rgb(0, 133, 252);
     color: rgb(255, 255, 255);
 }
 
+.trans-button {
+    color: rgb(255, 255, 255);
+    -unity-background-image-tint-color: rgb(0, 133, 252);
+    border-left-color: rgb(0, 133, 252);
+    border-right-color: rgb(0, 133, 252);
+    border-top-color: rgb(0, 133, 252);
+    border-bottom-color: rgb(0, 133, 252);
+    -unity-font-definition: url("project://database/Assets/Fonts/AlbertSans-Regular.ttf?fileID=12800000&guid=61d5e8193b4fc4541aba442c6e9eebf4&type=3#AlbertSans-Regular");
+    -unity-font-style: bold;
+}
 
+.trans-button:hover {
+    color: rgb(255, 255, 255);
+    -unity-background-image-tint-color: rgb(0, 133, 252);
+    border-left-color: rgb(0, 133, 252);
+    border-right-color: rgb(0, 133, 252);
+    border-top-color: rgb(0, 133, 252);
+    border-bottom-color: rgb(0, 133, 252);
+    -unity-font-definition: url("project://database/Assets/Fonts/AlbertSans-Regular.ttf?fileID=12800000&guid=61d5e8193b4fc4541aba442c6e9eebf4&type=3#AlbertSans-Regular");
+    -unity-font-style: normal;
+}
 
-.patient-input {
-    background-position-x: center;
-    background-position-y: top 0;
-    -unity-background-scale-mode: stretch-to-fill;
+.trans-button:active {
+    color: rgb(0, 133, 252);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-left-color: rgb(0, 133, 252);
+    border-right-color: rgb(0, 133, 252);
+    border-top-color: rgb(0, 133, 252);
+    border-bottom-color: rgb(0, 133, 252);
+    -unity-font-definition: url("project://database/Assets/Fonts/AlbertSans-Regular.ttf?fileID=12800000&guid=61d5e8193b4fc4541aba442c6e9eebf4&type=3#AlbertSans-Regular");
+    -unity-font-style: bold;
+}
+
+.sex-button {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
 }
