@@ -61,39 +61,96 @@
     color: rgb(255, 255, 255);
 }
 
-.trans-button {
+.sex-button {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 1.5px;
+    border-right-width: 1.5px;
+    border-bottom-width: 1.5px;
+    border-left-width: 1.5px;
+    font-size: 18px;
     color: rgb(255, 255, 255);
-    -unity-background-image-tint-color: rgb(0, 133, 252);
-    border-left-color: rgb(0, 133, 252);
-    border-right-color: rgb(0, 133, 252);
-    border-top-color: rgb(0, 133, 252);
-    border-bottom-color: rgb(0, 133, 252);
+    -unity-font-definition: url("project://database/Assets/Fonts/AlbertSans-Regular.ttf?fileID=12800000&guid=61d5e8193b4fc4541aba442c6e9eebf4&type=3#AlbertSans-Regular");
+}
+
+.sex-button:hover {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 1.5px;
+    border-right-width: 1.5px;
+    border-bottom-width: 1.5px;
+    border-left-width: 1.5px;
+    font-size: 18px;
+    color: rgb(0, 133, 252);
     -unity-font-definition: url("project://database/Assets/Fonts/AlbertSans-Regular.ttf?fileID=12800000&guid=61d5e8193b4fc4541aba442c6e9eebf4&type=3#AlbertSans-Regular");
     -unity-font-style: bold;
 }
 
-.trans-button:hover {
-    color: rgb(255, 255, 255);
-    -unity-background-image-tint-color: rgb(0, 133, 252);
-    border-left-color: rgb(0, 133, 252);
-    border-right-color: rgb(0, 133, 252);
-    border-top-color: rgb(0, 133, 252);
-    border-bottom-color: rgb(0, 133, 252);
+.sex-button:active {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 1.5px;
+    border-right-width: 1.5px;
+    border-bottom-width: 1.5px;
+    border-left-width: 1.5px;
+    font-size: 18px;
+    color: rgb(0, 133, 252);
     -unity-font-definition: url("project://database/Assets/Fonts/AlbertSans-Regular.ttf?fileID=12800000&guid=61d5e8193b4fc4541aba442c6e9eebf4&type=3#AlbertSans-Regular");
     -unity-font-style: normal;
 }
 
-.trans-button:active {
-    color: rgb(0, 133, 252);
-    -unity-background-image-tint-color: rgb(255, 255, 255);
-    border-left-color: rgb(0, 133, 252);
-    border-right-color: rgb(0, 133, 252);
-    border-top-color: rgb(0, 133, 252);
-    border-bottom-color: rgb(0, 133, 252);
-    -unity-font-definition: url("project://database/Assets/Fonts/AlbertSans-Regular.ttf?fileID=12800000&guid=61d5e8193b4fc4541aba442c6e9eebf4&type=3#AlbertSans-Regular");
-    -unity-font-style: bold;
+.lang-dropdown {
+    background-color: rgb(255, 255, 255);
+    border-left-color: rgb(131, 131, 131);
+    border-right-color: rgb(131, 131, 131);
+    border-top-color: rgb(131, 131, 131);
+    border-bottom-color: rgb(131, 131, 131);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-width: 1.5px;
+    border-right-width: 1.5px;
+    border-bottom-width: 1.5px;
+    border-left-width: 1.5px;
 }
 
-.sex-button {
-    -unity-background-image-tint-color: rgb(255, 255, 255);
+#Top_Element > #Left_Element > #Language_Dropdown_Element > .lang-dropdown > .unity-popup-field__input {
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+#Top_Element > #Left_Element > #Language_Dropdown_Element > .lang-dropdown > .unity-popup-field__input > .unity-base-popup-field__text {
+}
+
+#Top_Element > #Left_Element > #Language_Dropdown_Element > .lang-dropdown > .unity-popup-field__input > .unity-base-popup-field__arrow {
+    background-size: 130% 100%;
+    -unity-font-definition: url("project://database/Assets/Fonts/AlbertSans-Regular.ttf?fileID=12800000&guid=61d5e8193b4fc4541aba442c6e9eebf4&type=3#AlbertSans-Regular");
 }
