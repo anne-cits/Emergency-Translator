@@ -47,28 +47,35 @@ public class PatientInput : MonoBehaviour
 
     string TranslateInput(string input) //Actually Translates the Words
     {
-        return "Patient says: " + input; // Placeholder translator logic
+        return input; // Placeholder translator logic
     }
 
-    void CreatePatientBubble(string text)
-    {
-        GameObject bubble = Instantiate(patientOutputPrefab, patientOutputContainer);
+void CreatePatientBubble(string text)
+{
+    GameObject bubble = Instantiate(patientOutputPrefab, patientOutputContainer);
 
-        TMP_Text bubbleText = bubble.GetComponentInChildren<TMP_Text>();
-        bubbleText.text = text;
-    }
+    TMP_Text bubbleText = bubble.GetComponentInChildren<TMP_Text>();
+    bubbleText.text = text;
+
+    LayoutRebuilder.ForceRebuildLayoutImmediate(
+        (RectTransform)patientOutputContainer
+    );
+}
 
     void ClearPatientInput() //clears all input when the clear button is pressed
     {
-        patientOutputs.Clear(); //clear the list
+        patientOutputs.Clear();
 
-
-        foreach (Transform child in patientOutputContainer) // Destroy all bubble UI children
+        for (int i = patientOutputContainer.childCount - 1; i >= 0; i--)
         {
-            Destroy(child.gameObject);
+            Destroy(patientOutputContainer.GetChild(i).gameObject);
         }
 
-        patientInputField.text = ""; //clear text input
+        patientInputField.text = "";
+
+        LayoutRebuilder.ForceRebuildLayoutImmediate(
+            (RectTransform)patientOutputContainer
+        );
     }
 
     public void GetPatientSummary()
