@@ -7,26 +7,24 @@ using UnityEngine.UI;
 public class PatientInput : MonoBehaviour
 {
     [Header("Input")]
-    public TMP_InputField patientInputField; //left side input field
+    public TMP_InputField patientInputField;
 
     [Header("Buttons")]
-    [SerializeField] private Button translateButton; //translate patent's input
-    [SerializeField] private Button summaryButton; //summary button for patient
-    [SerializeField] private Button clearButton; //clear list & all player's input
+    [SerializeField] private Button translateButton;
+    [SerializeField] private Button summaryButton;
+    [SerializeField] private Button clearButton;
 
     [Header("Output")]
     [SerializeField] private Transform patientOutputContainer;
     [SerializeField] private GameObject patientOutputPrefab;
 
-    [Header("Patient Output Storage")]
-    public List<string> patientOutputs = new List<string>();
+    private List<string> patientOutputs = new List<string>();
 
     private void Start()
     {
         translateButton.onClick.AddListener(ProcessPatientInput);
         summaryButton.onClick.AddListener(GetPatientSummary);
         clearButton.onClick.AddListener(ClearPatientInput);
-
     }
 
     void ProcessPatientInput()
@@ -36,52 +34,48 @@ public class PatientInput : MonoBehaviour
         if (string.IsNullOrWhiteSpace(inputText))
             return;
 
-        string translatedText = TranslateInput(inputText); //Placeholder translator logic
+        string translatedText = TranslateInput(inputText);
 
-        patientOutputs.Add(translatedText); //Store for summary
+        patientOutputs.Add(translatedText);
 
-        CreatePatientBubble(translatedText); //Create UI bubble
+        CreatePatientBubble(translatedText);
 
-        patientInputField.text = ""; //Clear input
+        patientInputField.text = "";
     }
 
-    string TranslateInput(string input) //Actually Translates the Words
+    string TranslateInput(string input)
     {
-        return input; // Placeholder translator logic
+        return input; // replace later with real translation
     }
 
-void CreatePatientBubble(string text)
-{
-    GameObject bubble = Instantiate(patientOutputPrefab, patientOutputContainer);
+    void CreatePatientBubble(string text)
+    {
+        GameObject bubble = Instantiate(patientOutputPrefab, patientOutputContainer);
 
-    TMP_Text bubbleText = bubble.GetComponentInChildren<TMP_Text>();
-    bubbleText.text = text;
+        TMP_Text bubbleText = bubble.GetComponentInChildren<TMP_Text>();
+        bubbleText.text = text;
 
-    LayoutRebuilder.ForceRebuildLayoutImmediate(
-        (RectTransform)patientOutputContainer
-    );
-}
+        // Force layout update (helps prevent weird delays)
+        Canvas.ForceUpdateCanvases();
+    }
 
-    void ClearPatientInput() //clears all input when the clear button is pressed
+    void ClearPatientInput()
     {
         patientOutputs.Clear();
 
-        for (int i = patientOutputContainer.childCount - 1; i >= 0; i--)
+        foreach (Transform child in patientOutputContainer)
         {
-            Destroy(patientOutputContainer.GetChild(i).gameObject);
+            Destroy(child.gameObject);
         }
 
         patientInputField.text = "";
-
-        LayoutRebuilder.ForceRebuildLayoutImmediate(
-            (RectTransform)patientOutputContainer
-        );
     }
 
-    public void GetPatientSummary()
+    void GetPatientSummary()
     {
-        string.Join("\n", patientOutputs);
+        string summary = string.Join("\n", patientOutputs);
+        Debug.Log(summary);
+
         ClearPatientInput();
     }
-
 }
