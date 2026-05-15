@@ -116,7 +116,7 @@ public class PatientInput : MonoBehaviour
         }
     }
 
-    void CreatePatientBubble(string text)
+    public void CreatePatientBubble(string text)
     {
         GameObject bubble = Instantiate(patientOutputPrefab, patientOutputContainer);
 
