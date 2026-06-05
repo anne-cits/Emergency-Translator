@@ -5,11 +5,12 @@ using TMPro;
 
 public class BodyPartButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler
 {
+    private SelectedPartButton selectedPartButton;
+
     [Header ("Inspector Settings")]
-    [SerializeField] private string bodyUnselectedTextString = "";
-    private string bodySelectedTextString = "";
-    private TMP_Text unselectedBubbleText;
-    private TMP_Text selectedBubbleText;
+    public string hoveredTextString = "";
+    private string selectedTextString = "";
+    private TMP_Text hoveredBubbleText;
     [SerializeField] private GameObject bodyPartVisual;
 
     [Header ("Body Part Bubble")]
@@ -33,36 +34,32 @@ public class BodyPartButton : MonoBehaviour, IPointerEnterHandler, IPointerExitH
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        CreateBodyPartBubble();
+        CreateHoverBodyPartBubble();
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        ClearBodyPartBubble();
+        ClearHoverBodyPartBubble();
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        if (unselectedBubbleText != null)
-        {
-            unselectedBubbleText.text = selectedBubbleText.text;
-            selectedBubbleText.text = bodySelectedTextString;
-            BodyPartManager.instance.SelectBodyPart(bodyPartVisual);
-        }
-        
+        selectedTextString = hoveredTextString;
+
+        BodyPartManager.instance.SelectBodyPart(bodyPartVisual);
     }
 
-    public void CreateBodyPartBubble()
+    public void CreateHoverBodyPartBubble()
     {
         Vector3 spawnPosition = bodyTransform.position + new Vector3(0f, 48f, 0f);
 
         GameObject bubble = Instantiate(bodyPartPrefab, spawnPosition, Quaternion.identity, bodyTransform);
 
-        unselectedBubbleText = bubble.GetComponentInChildren<TMP_Text>();
-        unselectedBubbleText.text = bodyUnselectedTextString;
+        hoveredBubbleText = bubble.GetComponentInChildren<TMP_Text>();
+        hoveredBubbleText.text = hoveredTextString;
     }
 
-    public void ClearBodyPartBubble()
+    public void ClearHoverBodyPartBubble()
     {
         foreach (Transform child in bodyTransform)
         {
@@ -75,7 +72,7 @@ public class BodyPartButton : MonoBehaviour, IPointerEnterHandler, IPointerExitH
         GameObject bubble = Instantiate(bodyPartSelectedPrefab, bodyPartSelectedTransform);
 
         TMP_Text bubbleText = bubble.GetComponentInChildren<TMP_Text>();
-        bubbleText.text = bodySelectedTextString + ": " + BodyPartManager.instance.selectedPartText;
+        bubbleText.text = selectedTextString + ": " + selectedPartButton.branchTextString;
     }
 
     public void ClearSelectedBodyPartBubble()

@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95121e6994b9e1345a4ab116a80259d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BodyPartButton
-  bodyUnselectedTextString: Left Arm
+  hoveredTextString: Left Arm
   bodyPartVisual: {fileID: 2008072717}
 --- !u!1 &9335669
 GameObject:
@@ -388,7 +388,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &14091508
 GameObject:
   m_ObjectHideFlags: 0
@@ -523,7 +524,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &18929541
 GameObject:
   m_ObjectHideFlags: 0
@@ -1808,7 +1810,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &80166973
 GameObject:
   m_ObjectHideFlags: 0
@@ -3346,7 +3349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95121e6994b9e1345a4ab116a80259d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BodyPartButton
-  bodyUnselectedTextString: Left Upper Leg
+  hoveredTextString: Left Upper Leg
   bodyPartVisual: {fileID: 695442346}
 --- !u!1 &167972306
 GameObject:
@@ -3831,7 +3834,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &211246280
 GameObject:
   m_ObjectHideFlags: 0
@@ -4007,7 +4011,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &235262744
 GameObject:
   m_ObjectHideFlags: 0
@@ -4354,7 +4359,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &251022673
 GameObject:
   m_ObjectHideFlags: 0
@@ -4871,7 +4877,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &266829521
 GameObject:
   m_ObjectHideFlags: 0
@@ -5006,7 +5013,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &269997687
 GameObject:
   m_ObjectHideFlags: 0
@@ -5290,7 +5298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95121e6994b9e1345a4ab116a80259d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BodyPartButton
-  bodyUnselectedTextString: Head
+  hoveredTextString: Head
   bodyPartVisual: {fileID: 1464000494}
 --- !u!1 &280355887
 GameObject:
@@ -5426,7 +5434,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &288217987
 GameObject:
   m_ObjectHideFlags: 0
@@ -5561,7 +5570,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &293237551
 GameObject:
   m_ObjectHideFlags: 0
@@ -6006,7 +6016,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &314169250
 GameObject:
   m_ObjectHideFlags: 0
@@ -7091,7 +7102,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &369981491
 GameObject:
   m_ObjectHideFlags: 0
@@ -7226,7 +7238,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &372075326
 GameObject:
   m_ObjectHideFlags: 0
@@ -7498,7 +7511,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &385184013
 GameObject:
   m_ObjectHideFlags: 0
@@ -7633,7 +7647,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &386383259
 GameObject:
   m_ObjectHideFlags: 0
@@ -8060,7 +8075,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &412215058
 GameObject:
   m_ObjectHideFlags: 0
@@ -8469,7 +8485,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &427535050
 GameObject:
   m_ObjectHideFlags: 0
@@ -9052,7 +9069,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &456533200
 GameObject:
   m_ObjectHideFlags: 0
@@ -9399,7 +9417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95121e6994b9e1345a4ab116a80259d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BodyPartButton
-  bodyUnselectedTextString: Left Hand
+  hoveredTextString: Left Hand
   bodyPartVisual: {fileID: 720457912}
 --- !u!1 &478584230
 GameObject:
@@ -9534,7 +9552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95121e6994b9e1345a4ab116a80259d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BodyPartButton
-  bodyUnselectedTextString: Groin
+  hoveredTextString: Groin
   bodyPartVisual: {fileID: 1102753963}
 --- !u!1 &482569780
 GameObject:
@@ -9670,7 +9688,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &487410314
 GameObject:
   m_ObjectHideFlags: 0
@@ -9985,7 +10004,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &495897466
 GameObject:
   m_ObjectHideFlags: 0
@@ -10434,7 +10454,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &524681382
 GameObject:
   m_ObjectHideFlags: 0
@@ -10569,7 +10590,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &526209437
 GameObject:
   m_ObjectHideFlags: 0
@@ -11794,7 +11816,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &606977475
 GameObject:
   m_ObjectHideFlags: 0
@@ -11929,7 +11952,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &611316620
 GameObject:
   m_ObjectHideFlags: 0
@@ -13396,7 +13420,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &731227193
 GameObject:
   m_ObjectHideFlags: 0
@@ -13637,7 +13662,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &735799956
 GameObject:
   m_ObjectHideFlags: 0
@@ -13772,7 +13798,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &750992353
 GameObject:
   m_ObjectHideFlags: 0
@@ -14119,7 +14146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &766060772
 GameObject:
   m_ObjectHideFlags: 0
@@ -14493,7 +14521,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &784774089
 GameObject:
   m_ObjectHideFlags: 0
@@ -14902,7 +14931,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &795154650
 GameObject:
   m_ObjectHideFlags: 0
@@ -15036,7 +15066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95121e6994b9e1345a4ab116a80259d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BodyPartButton
-  bodyUnselectedTextString: Right Hand
+  hoveredTextString: Right Hand
   bodyPartVisual: {fileID: 490515505}
 --- !u!1 &800112868
 GameObject:
@@ -15482,7 +15512,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &814947846
 GameObject:
   m_ObjectHideFlags: 0
@@ -15829,7 +15860,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &836221434
 GameObject:
   m_ObjectHideFlags: 0
@@ -16180,7 +16212,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &852366292
 GameObject:
   m_ObjectHideFlags: 0
@@ -16527,7 +16560,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &876305367
 GameObject:
   m_ObjectHideFlags: 0
@@ -17057,7 +17091,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &892741529
 GameObject:
   m_ObjectHideFlags: 0
@@ -17192,7 +17227,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &922364299
 GameObject:
   m_ObjectHideFlags: 0
@@ -17327,7 +17363,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &924370342
 GameObject:
   m_ObjectHideFlags: 0
@@ -17537,7 +17574,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &948274912
 GameObject:
   m_ObjectHideFlags: 0
@@ -17672,7 +17710,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &948618561
 GameObject:
   m_ObjectHideFlags: 0
@@ -17944,7 +17983,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &950446501
 GameObject:
   m_ObjectHideFlags: 0
@@ -18934,7 +18974,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1024181145
 GameObject:
   m_ObjectHideFlags: 0
@@ -19069,7 +19110,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1025380172
 GameObject:
   m_ObjectHideFlags: 0
@@ -19748,7 +19790,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1060772077
 GameObject:
   m_ObjectHideFlags: 0
@@ -19883,7 +19926,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1062844433
 GameObject:
   m_ObjectHideFlags: 0
@@ -20604,7 +20648,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1097298892
 GameObject:
   m_ObjectHideFlags: 0
@@ -21040,7 +21085,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1118727172
 GameObject:
   m_ObjectHideFlags: 0
@@ -21175,7 +21221,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1122105413
 GameObject:
   m_ObjectHideFlags: 0
@@ -21659,7 +21706,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1153547511
 GameObject:
   m_ObjectHideFlags: 0
@@ -21794,7 +21842,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1156711000
 GameObject:
   m_ObjectHideFlags: 0
@@ -22310,7 +22359,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1185818459
 GameObject:
   m_ObjectHideFlags: 0
@@ -22719,7 +22769,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1213451803
 GameObject:
   m_ObjectHideFlags: 0
@@ -22929,7 +22980,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1229671746
 GameObject:
   m_ObjectHideFlags: 0
@@ -23064,7 +23116,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1232462252
 GameObject:
   m_ObjectHideFlags: 0
@@ -23199,7 +23252,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1236745558
 GameObject:
   m_ObjectHideFlags: 0
@@ -23757,7 +23811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95121e6994b9e1345a4ab116a80259d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BodyPartButton
-  bodyUnselectedTextString: Right Shoulder
+  hoveredTextString: Right Shoulder
   bodyPartVisual: {fileID: 1334339947}
 --- !u!1 &1267107181
 GameObject:
@@ -23967,7 +24021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95121e6994b9e1345a4ab116a80259d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BodyPartButton
-  bodyUnselectedTextString: Right Lower Leg
+  hoveredTextString: Right Lower Leg
   bodyPartVisual: {fileID: 438190003}
 --- !u!1 &1278227538
 GameObject:
@@ -24103,7 +24157,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1279488217
 GameObject:
   m_ObjectHideFlags: 0
@@ -24450,7 +24505,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1292523882
 GameObject:
   m_ObjectHideFlags: 0
@@ -24796,7 +24852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95121e6994b9e1345a4ab116a80259d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BodyPartButton
-  bodyUnselectedTextString: Right Upper Leg
+  hoveredTextString: Right Upper Leg
   bodyPartVisual: {fileID: 105834865}
 --- !u!1 &1314237782
 GameObject:
@@ -25069,7 +25125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1322268433
 GameObject:
   m_ObjectHideFlags: 0
@@ -25521,7 +25578,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1357240152
 GameObject:
   m_ObjectHideFlags: 0
@@ -25793,7 +25851,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1359792036
 GameObject:
   m_ObjectHideFlags: 0
@@ -26218,7 +26277,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1394326742
 GameObject:
   m_ObjectHideFlags: 0
@@ -26490,7 +26550,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1396773227
 GameObject:
   m_ObjectHideFlags: 0
@@ -26625,7 +26686,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1399920430
 GameObject:
   m_ObjectHideFlags: 0
@@ -26835,7 +26897,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1412682027
 GameObject:
   m_ObjectHideFlags: 0
@@ -26970,7 +27033,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1425781183
 GameObject:
   m_ObjectHideFlags: 0
@@ -27813,7 +27877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95121e6994b9e1345a4ab116a80259d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BodyPartButton
-  bodyUnselectedTextString: Right Foot
+  hoveredTextString: Right Foot
   bodyPartVisual: {fileID: 1764146891}
 --- !u!1 &1484507414
 GameObject:
@@ -28066,7 +28130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95121e6994b9e1345a4ab116a80259d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BodyPartButton
-  bodyUnselectedTextString: Mid Chest
+  hoveredTextString: Mid Chest
   bodyPartVisual: {fileID: 771839294}
 --- !u!1 &1502766934
 GameObject:
@@ -28201,7 +28265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95121e6994b9e1345a4ab116a80259d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BodyPartButton
-  bodyUnselectedTextString: Right Arm
+  hoveredTextString: Right Arm
   bodyPartVisual: {fileID: 1491426615}
 --- !u!1 &1507360305
 GameObject:
@@ -28336,7 +28400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95121e6994b9e1345a4ab116a80259d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BodyPartButton
-  bodyUnselectedTextString: Neck
+  hoveredTextString: Neck
   bodyPartVisual: {fileID: 495897466}
 --- !u!1 &1514055659
 GameObject:
@@ -28547,7 +28611,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1529236845
 GameObject:
   m_ObjectHideFlags: 0
@@ -28992,7 +29057,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1557230983
 GameObject:
   m_ObjectHideFlags: 0
@@ -29127,7 +29193,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1563362559
 GameObject:
   m_ObjectHideFlags: 0
@@ -29336,7 +29403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95121e6994b9e1345a4ab116a80259d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BodyPartButton
-  bodyUnselectedTextString: Left Foot
+  hoveredTextString: Left Foot
   bodyPartVisual: {fileID: 554030480}
 --- !u!1 &1572132856
 GameObject:
@@ -29472,7 +29539,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1581251677
 GameObject:
   m_ObjectHideFlags: 0
@@ -29682,7 +29750,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1605352395
 GameObject:
   m_ObjectHideFlags: 0
@@ -29817,7 +29886,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1605625003
 GameObject:
   m_ObjectHideFlags: 0
@@ -29952,7 +30022,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1606810437
 GameObject:
   m_ObjectHideFlags: 0
@@ -30329,7 +30400,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1666997167
 GameObject:
   m_ObjectHideFlags: 0
@@ -31275,7 +31347,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1723172922
 GameObject:
   m_ObjectHideFlags: 0
@@ -31410,7 +31483,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1727307004
 GameObject:
   m_ObjectHideFlags: 0
@@ -33026,7 +33100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1854375358
 GameObject:
   m_ObjectHideFlags: 0
@@ -33298,7 +33373,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1866446148
 GameObject:
   m_ObjectHideFlags: 0
@@ -33570,7 +33646,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1874240475
 GameObject:
   m_ObjectHideFlags: 0
@@ -34253,7 +34330,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1916038706
 GameObject:
   m_ObjectHideFlags: 0
@@ -34388,7 +34466,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1918709877
 GameObject:
   m_ObjectHideFlags: 0
@@ -35094,7 +35173,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &1986068538
 GameObject:
   m_ObjectHideFlags: 0
@@ -35714,7 +35794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95121e6994b9e1345a4ab116a80259d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BodyPartButton
-  bodyUnselectedTextString: Left Shoulder
+  hoveredTextString: Left Shoulder
   bodyPartVisual: {fileID: 1475355840}
 --- !u!1 &2008072717
 GameObject:
@@ -35934,7 +36014,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &2032818241
 GameObject:
   m_ObjectHideFlags: 0
@@ -36069,7 +36150,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &2033663064
 GameObject:
   m_ObjectHideFlags: 0
@@ -36415,7 +36497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95121e6994b9e1345a4ab116a80259d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BodyPartButton
-  bodyUnselectedTextString: Left Lower Leg
+  hoveredTextString: Left Lower Leg
   bodyPartVisual: {fileID: 1174528185}
 --- !u!1 &2043142707
 GameObject:
@@ -36551,7 +36633,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &2049436173
 GameObject:
   m_ObjectHideFlags: 0
@@ -36686,7 +36769,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &2062928364
 GameObject:
   m_ObjectHideFlags: 0
@@ -36821,7 +36905,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f070b98bc405f46a838badcdd9ef63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedPartButton
-  selectedPartBtnTxt: 
+  branchBubbleText: {fileID: 0}
+  branchTextString: 
 --- !u!1 &2068703186
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,7 +6,6 @@ public class BodyPartManager : MonoBehaviour
 
     public GameObject defaultBodyVisual;
     public GameObject[] allBodyVisuals;
-    public string selectedPartText = "";
 
     private void Awake()
     {
